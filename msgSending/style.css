@@ -18,6 +18,7 @@ body{
   border-radius: 20px;
   box-shadow: 10px;
   overflow-y: scroll;
+  overflow-x: hidden;
 
 }
 #crush1{
@@ -41,7 +42,8 @@ body{
 
 .box1{
   width: 50%;
-  height: 40px;
+  height: auto;
+  text-overflow: clip;
   padding: 10px;
   position:relative;
   float: left;
@@ -55,7 +57,8 @@ body{
 }
 .box2{
   width: 50%;
-  height: 40px;
+  height: auto;
+  text-overflow: clip;
   padding: 10px;
   position: relative;
   float: right;
