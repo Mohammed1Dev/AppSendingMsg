@@ -10,6 +10,7 @@ function sendIn() {
 
   cont1.appendChild(box1);
   container.appendChild(cont1);
+  container.scrollTop += 80;
 
 
 
@@ -25,7 +26,7 @@ function sendOut() {
   box2.innerHTML = valueMsg;
   cont2.appendChild(box2);
   container.appendChild(cont2);
-
+  container.scrollTop += 80;
 
 
 
