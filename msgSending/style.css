@@ -1,0 +1,91 @@
+body{
+  margin: 150px;
+  padding:100px;
+  background-image: url('whatsapp-promo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  /*radial-gradient(#e6ffe6, #bfbfbf, #b3b3cb )*/
+  align-content: center;
+}
+#crush{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  background-image: url('back.png');
+  width: 500px;
+  height: 600px;
+  border-radius: 20px;
+  box-shadow: 10px;
+  overflow-y: scroll;
+
+}
+#crush1{
+  padding-right: 20px;
+  position: relative;
+  width: 100%;
+
+  border-radius: 20px;
+  box-shadow: 10px;
+
+
+}
+#crush2{
+  padding-left: 20px;
+  position: relative;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 10px;
+
+}
+
+.box1{
+  width: 50%;
+  height: 40px;
+  padding: 10px;
+  position:relative;
+  float: left;
+  color: blue;
+  background-color: white;
+  font-size: 22px;
+  text-align: center;
+  text-shadow: 1px 1px gray;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.box2{
+  width: 50%;
+  height: 40px;
+  padding: 10px;
+  position: relative;
+  float: right;
+  color: red;
+  background-color: white;
+  font-size: 22px;
+  text-align: center;
+  text-shadow: 1px 1px gray;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+#shink{
+  position: relative;
+  width: 500px;
+  height: 100px;
+  margin-left: 80px;
+}
+#shink #inp,#btn1,#btn2{
+  margin-top: 30px;
+}
+#inp{
+  width: 300px;
+  height: 40px;
+  border: 1px solid #00cc99;
+  border-radius: 10px;
+}
+#btn1,#btn2{
+  background-color: #00cc99;
+  border: 1px solid #ccffcc;
+  border-radius: 10px;
+  width: 90px;
+  height: 40px;
+}
